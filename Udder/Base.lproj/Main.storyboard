@@ -33,6 +33,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="tagLabel" destination="RMg-wB-E5Y" id="kDQ-Jh-YgO"/>
+                        <outlet property="titleLabel" destination="jPy-Mk-zjL" id="KQb-kQ-PGn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
